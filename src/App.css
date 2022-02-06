@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+}
+.container{
+  width: 600px;
+  margin: 30px auto;
+}
+form{
+  width: 100%;
+}
+.group{
+  margin: 10px 0;
+}
+.control{
+  width: 100%;
+  padding: 12px 10px;
+  border: 1px solid silver;
+  outline: none;
+}
+.btn{
+  outline: none;
+  border: none;
+  text-decoration: none;
+  padding: 12px 10px;
+  color: white;
+  cursor: pointer;
+}
+.btn-default{
+  background: rgb(42, 72, 245);
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.row{
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+.name{
+  width: 30%;
+}
+.address{
+  width: 40%;
+}
+.user-btn{
+  width: 30%;
+}
+.btn-danger{
+  background: crimson;
+}
